@@ -5,6 +5,64 @@
     font-weight: 700;
     font-style: normal;
   }
+  /* shared style  */
+  .display-flex{
+    display: flex;
+  }
+  /* feautred style  */
+  .feautred{
+    max-width: 1110px;
+    margin: 0 auto;
+    gap: 96px;
+  }
+  .feautred-container{
+    width: 610px;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  .feautred-title{
+    font-size: 2.34rem;
+    font-weight: 700;
+    color: #0A0826;
+    margin-bottom: 16px;
+
+  }
+  .fetured-description{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #6C6C6C;
+   
+  }
+  .btn{
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    padding: 10px 56px;
+    border-radius: 4px;
+    border: none;
+    background-color: #E02C6D;
+  }
+  .feautred-pic{
+    width:410px;
+  }
+
+  /* responsive for small device */
+  @media screen  and (max-width:576px){
+    .display-flex{
+        flex-direction: column-reverse;
+    }
+    .feautred-pic{
+       width: 50%;
+      }
+      .feautred-container{
+        width: 50%;
+        margin: 20px 0;
+       padding-left: 80px;
+      }
+    
+    }
+    
+ 
   
   
   
