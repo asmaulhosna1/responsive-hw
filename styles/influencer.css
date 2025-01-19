@@ -9,7 +9,18 @@
   .display-flex{
     display: flex;
   }
-  /* popular style  */
+  .logos{
+    width: 1110px;
+    margin: 0 auto;
+    padding: 35.5px 61.7px; 
+    border: 1px solid blanchedalmond;
+    border: none;
+    background-color:#ffffff;
+    gap: 60.94px;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+  }
+        /* popular style  */
   .popular{
     width: 1047px;
     margin: 0 auto; 
@@ -201,6 +212,15 @@
     display: contents;
    
     }
+    .logos{
+      grid-template-columns:repeat(3,1fr);
+      max-width: 50%;
+      padding: 0;
+      margin: 0;
+      gap: 20px;
+
+      
+         }
      
     }
    
@@ -229,8 +249,11 @@
     .popular-btn{
       display: contents;
     }
+    .logos{
+      grid-template-columns:repeat(4,1fr);
+      max-width: 50%;
 }
-
+}
  
   
   
